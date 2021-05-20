@@ -24,3 +24,4 @@ select * from tb_produtos where preco>500;
 select * from tb_produtos where preco<=500;
 
 update tb_produtos set preco = 2700.00 where id= 2;
+alter table tb_produtos modify preco decimal(7,2);

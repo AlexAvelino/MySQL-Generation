@@ -31,3 +31,6 @@ update tb_produtos set preco=0 where id=1;
 
 -- Deletar dados na tabela
 delete from tb_produtos where id=2;
+
+-- Altera um campo da tabela
+alter table tb_produtos modify preco decimal(5,2);
